@@ -6,4 +6,8 @@
 - Turning the notebook into a Python script.
 - Writing a simple `ping/pong` app.
 - Querying the app with `curl` and browser.
+- Wrapping the script into a Flask app.
+- Querying with `requests`.
+- Preparing for production: gunicorn.
+- Running with waitress.
 
