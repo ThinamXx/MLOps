@@ -1,2 +1,3 @@
-# MLOps
-The repository contains implementation of MLOps.
+# **Machine Learning Operations (MLOps)**
+
+
