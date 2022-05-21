@@ -1,2 +1,9 @@
 # **MLOps Pre-requisites**
 
+**What I have learned here?**
+- Saving the model to pickle.
+- Loading the model from pickle.
+- Turning the notebook into a Python script.
+- Writing a simple `ping/pong` app.
+- Querying the app with `curl` and browser.
+
