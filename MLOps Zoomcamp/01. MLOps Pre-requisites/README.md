@@ -10,4 +10,5 @@
 - Querying with `requests`.
 - Preparing for production: gunicorn.
 - Running with waitress.
+- Learned about Python virtual environment.
 
