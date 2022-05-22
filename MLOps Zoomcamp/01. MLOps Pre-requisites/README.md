@@ -14,4 +14,7 @@
 - Running a Python image with docker.
 - Building a docker image. 
 - Running a docker image.
+- Installing the Elastic Beanstalk cli.
+- Running Elastic Beanstalk cli.
+- Deploying the model.
 
