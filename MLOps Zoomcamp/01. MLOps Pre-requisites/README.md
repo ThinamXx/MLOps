@@ -1,4 +1,4 @@
-# **MLOps Pre-requisites**
+## **Machine Learning Operations Pre-requisites**
 
 **What I have learned here?**
 - Saving the model to pickle.
