@@ -11,4 +11,7 @@
 - Preparing for production: gunicorn.
 - Running with waitress.
 - Learned about Python virtual environment.
+- Running a Python image with docker.
+- Building a docker image. 
+- Running a docker image.
 
