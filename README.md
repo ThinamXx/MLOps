@@ -1,3 +1,3 @@
-# **Machine Learning Operations (MLOps)**
+# **MACHINE LEARNING OPERATIONS (MLOPS)**
 
 
