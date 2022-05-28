@@ -1,6 +1,6 @@
 # **Machine Learning Operations Introduction**
 
-### **MLOps Maturity Level 🎯**
+### **MLOPS MATURITY LEVEL 🎯**
 
 - **Level 0: No MLOps: POC**
   - No automation.
