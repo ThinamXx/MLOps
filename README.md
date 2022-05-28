@@ -5,4 +5,3 @@
 - 📚 [MLOps Zoomcamp](https://lnkd.in/dFqXZcdw)
 - 📒 [MLOps](https://lnkd.in/de8a3wXt)
 
-![Image](https://github.com/ThinamXx/MLOps/blob/main/MLOps%20Images/Day1.png)
