@@ -4,10 +4,10 @@ The repository contains a list of projects and notebooks which I have worked on 
 
 ![Image](https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/images/banner.png)
 
-## **📚NOTEBOOKS:**
+## **📚CONTENTS:**
 
-[**1. MLOPS PRE-REQUISITES**](https://github.com/ThinamXx/MLOps/tree/main/MLOps%20Zoomcamp/01.%20MLOps%20Pre-requisites)
-- The repository contains information about python script, flask app, querying using requests, docker, elastic beanstalk and model deployment.
+[**1. MLOPS PRE-REQUISITES**](https://github.com/ThinamXx/MLOps/tree/main/MLOps%20Zoomcamp/01.%20MLOps%20Pre-requisites)  
+The repository contains information about python script, flask app, querying using requests, docker, elastic beanstalk and model deployment.
 
-[**2. MLOPS INTRODUCTION**](https://github.com/ThinamXx/MLOps/tree/main/MLOps%20Zoomcamp/02.%20MLOps%20Introduction)
-- The repository contains information about linear regression model & mlops maturity level. 
+[**2. MLOPS INTRODUCTION**](https://github.com/ThinamXx/MLOps/tree/main/MLOps%20Zoomcamp/02.%20MLOps%20Introduction)  
+The repository contains information about linear regression model & mlops maturity level. 
