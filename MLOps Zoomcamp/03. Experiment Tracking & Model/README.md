@@ -11,3 +11,4 @@
 	- Model Registry.
 	- Projects.
 
+### **Model Management**
