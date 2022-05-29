@@ -17,3 +17,7 @@
 ### **Model Registry**
 - List the production ready models. 
 - Deployment of latest versions of the model.
+
+### **MLflowClient Class**
+- A client of an MLflow Tracking Server creates and manages experiments andruns.
+- A client of an MLflow Registry Server creates and manages registered models and model versions. 
