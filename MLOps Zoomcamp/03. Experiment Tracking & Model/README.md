@@ -12,3 +12,7 @@
 	- Projects.
 
 ### **Model Management**
+- Tracks model versions and model artifacts along with preprocessor artifacts. 
+
+### **Model Registry**
+- Deployment of latest versions of the model.
