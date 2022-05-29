@@ -15,4 +15,5 @@
 - Tracks model versions and model artifacts along with preprocessor artifacts. 
 
 ### **Model Registry**
+- List the production ready models. 
 - Deployment of latest versions of the model.
