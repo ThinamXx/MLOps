@@ -21,3 +21,7 @@
 ### **MLflowClient Class**
 - A client of an MLflow Tracking Server creates and manages experiments andruns.
 - A client of an MLflow Registry Server creates and manages registered models and model versions. 
+
+### **MLflow Configuration**
+- MLflow configuration is a set of key-value pairs that are used to configure MLflow.
+- MLflow configuration is stored in a file called **mlflow-config.yaml**.
