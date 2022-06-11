@@ -11,12 +11,13 @@
 	- Model Registry.
 	- Projects.
 
-### **Model Management**
-- Tracks model versions and model artifacts along with preprocessor artifacts. 
-
-### **Model Registry**
-- List the production ready models. 
-- Deployment of latest versions of the model.
+### **Model Management in MLFlow**
+- The Model Registry component is a centralized model store, set of APIs, and a UI, to collaboratively manage the full lifecycle of an MLflow Model. 
+- It provides:
+   - Model lineage.
+   - Model versioning.
+   - Stage transitions.
+   - Annotations.
 
 ### **MLflowClient Class**
 - A client of an MLflow Tracking Server creates and manages experiments andruns.

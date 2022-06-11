@@ -11,3 +11,6 @@ The repository contains information about python script, flask app, querying usi
 
 [**2. MLOPS INTRODUCTION**](https://github.com/ThinamXx/MLOps/tree/main/MLOps%20Zoomcamp/02.%20MLOps%20Introduction)  
 The repository contains information about linear regression model & mlops maturity level. 
+
+[**3. EXPERIMENTAL TRACKING AND MODEL MANAGEMENT**](https://github.com/ThinamXx/MLOps/tree/main/MLOps%20Zoomcamp/03.%20Experiment%20Tracking%20%26%20Model)  
+The repository contains information about experimental tracking, mlflow, model registry, mlflow client and hyperparameters tuning. 
