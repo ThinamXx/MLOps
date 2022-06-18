@@ -20,7 +20,7 @@
    - Annotations.
 
 ### **MLflowClient Class**
-- A client of an MLflow Tracking Server creates and manages experiments andruns.
+- A client of an MLflow Tracking Server creates and manages experiments and runs.
 - A client of an MLflow Registry Server creates and manages registered models and model versions. 
 
 
