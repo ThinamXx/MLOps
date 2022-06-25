@@ -14,4 +14,3 @@
 - Adding them all to a flow and running locally.
 - Turning functions into tasks.
 - Parameters and type checking.
-- 
