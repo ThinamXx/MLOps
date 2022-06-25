@@ -8,3 +8,10 @@
 - Observability into failures.
 - Conditional failure logic.
 - Timeouts.
+
+### **Prefect Flow and Basics**
+- Sample use-cases with MLFlow.
+- Adding them all to a flow and running locally.
+- Turning functions into tasks.
+- Parameters and type checking.
+- 
