@@ -9,3 +9,8 @@
 - **MLflow**: The Model Registry component is a centralized model store, set of APIs, and a UI, to collaboratively manage the full lifecycle of an MLflow Model. It provides Model lineage, Model versioning, Stage transitions & Annotations. A client of an MLflow Tracking Server creates and manages experiments and runs.  I have been learning and experimenting MLOps from **MLOpsZoomcamp**. I have learned about Experiment Tracking and Model Management, Model Registry, MLflow Client, MLOps Workflow Orchestration, and a few more topics related to the same from here. I have presented the implementation of Model Training here in the snapshot. I hope you will gain some insights and spend some time learning the topics from the course mentioned below. Excited about the days ahead.
 - 📚 [MLOps Zoomcamp](https://lnkd.in/dFqXZcdw)
 - 📒 [MLOps](https://lnkd.in/de8a3wXt)
+
+**Day3 of 66DaysOfMLOps**
+- I have been learning and experimenting MLOps from **MLOpsZoomcamp**. I have learned about Negative Engineering and Workflow Orchestration, Introduction to Prefect 2.0, Prefect Flow and Basics, Remote Prefect Orion Deployment, Turning Functions into Tasks, Parameters & Type Checking with Prefect, and many more topics related to the same. I have presented the implementation of Prefect Flow & Orion Deployment here in the snapshot. I hope you will gain some insights and spend time learning the topics from the course mentioned below. I am excited about the days ahead.
+- 📚 [MLOps Zoomcamp](https://lnkd.in/dFqXZcdw)
+- 📒 [MLOps](https://lnkd.in/de8a3wXt)
