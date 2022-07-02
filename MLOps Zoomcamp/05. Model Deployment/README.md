@@ -11,6 +11,6 @@
 - Running the model regularly (hourly, daily, monthly, etc).
 - Turn the notebook for training a model into a notebook for applying the model.
 
-
-`docker build -t ride-duration-prediction-service:v1 .`
+**Docker**
+`docker build -t ride-duration-prediction-service:v1 .`  
 `docker run -it --rm -p 9696:9696 ride-duration-prediction-service:v1`
