@@ -6,8 +6,10 @@ name = "pypi"
 [packages]
 scikit-learn = "==1.1.1"
 flask = "*"
+gunicorn = "*"
 
 [dev-packages]
+requests = "*"
 
 [requires]
 python_version = "3.10"
