@@ -12,5 +12,5 @@
 - Turn the notebook for training a model into a notebook for applying the model.
 
 **Docker**  
-`docker build -t ride-duration-prediction-service:v1 .`  
-`docker run -it --rm -p 9696:9696 ride-duration-prediction-service:v1`
+- `docker build -t ride-duration-prediction-service:v1 .`  
+- `docker run -it --rm -p 9696:9696 ride-duration-prediction-service:v1`
