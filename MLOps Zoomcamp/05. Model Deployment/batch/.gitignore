@@ -1,0 +1,4 @@
+.ipynb_checkpoints
+mlruns
+dict_vectorizer.bin 
+mlflow.db
