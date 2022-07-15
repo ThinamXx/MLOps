@@ -1,14 +1,18 @@
 # IMPORTING MODULES:
-from distutils.util import run_2to3
 import os
 import sys
 import pickle 
 import uuid
+from numpy import save
 import pandas as pd
+from datetime import datetime
+from prefect import get_run_logger, task, flow 
+from prefect.context import get_run_context
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 from sklearn.pipeline import make_pipeline
+from dateutil.relativedelta import relativedelta
 
 #@ IGNORING WARNINGS: 
 import warnings
@@ -27,6 +31,8 @@ def generate_uuids(n):
         ride_ids.append(str(uuid.uuid4()))
     return ride_ids
 
+
+
 # OVERALL FUNCTION TO PREPARE DATAFRAME:
 def read_dataframe(filename):                                                           # Defining function.
     if filename.endswith(".csv"):                                                       # Checking.
@@ -42,6 +48,8 @@ def read_dataframe(filename):                                                   
     
     df["ride_id"] = generate_uuids(len(df))
     return df
+
+
 
 def prepare_dictionaries(df: pd.DataFrame):
     categorical = ["PULocationID", "DOLocationID"]
@@ -61,20 +69,8 @@ def load_model(run_id):
     return loaded_model
 
 
-
-# IMPLEMENTATION OF THE MODEL:
-def apply_model(input_file, run_id, output_file):
-    print("Reading data from {}".format(input_file))
-    df = read_dataframe(input_file)
-    dicts = prepare_dictionaries(df)
-    
-    print("Loading model with {}".format(run_id))
-    model = load_model(run_id)
-
-    print("Applying model with {}".format(run_id))
-    y_pred = model.predict(dicts)
-    
-    print("Saving predictions to {}".format(output_file))
+# FUNCTION TO SAVING RESULTS:
+def save_results(df: pd.DataFrame, y_pred, run_id, output_file):
     df_result = pd.DataFrame()
     df_result["ride_id"] = df["ride_id"]
     df_result["lpep_pickup_datetime"] = df["lpep_pickup_datetime"]
@@ -85,24 +81,58 @@ def apply_model(input_file, run_id, output_file):
     df_result["diff"] = df_result["actual_duration"] - df_result["predicted_duration"]
     df_result["model_version"] = run_id
     
-    return df_result.to_parquet(output_file, index=False)
+    df_result.to_parquet(output_file, index=False)
 
 
 
-# IMPLEMENTATION:
-def run():
-    mlflow.set_tracking_uri("sqlite:///mlflow.db")
-    mlflow.set_experiment("green-taxi-duration")
+# IMPLEMENTATION OF THE MODEL:
+@task
+def apply_model(input_file, run_id, output_file):
+    logger = get_run_logger()
 
-    taxi_type = sys.argv[1]  # "green"
-    year = int(sys.argv[2])  # 2021
-    month = int(sys.argv[3]) #  1
+    logger.info("Reading data from {}".format(input_file))
+    df = read_dataframe(input_file)
+    dicts = prepare_dictionaries(df)
+    
+    logger.info("Loading model with {}".format(run_id))
+    model = load_model(run_id)
+
+    logger.info("Applying model with {}".format(run_id))
+    y_pred = model.predict(dicts)
+
+    logger.info("Saving predictions to {}".format(output_file))
+    save_results(df, y_pred, run_id, output_file)
+    return output_file
+    
+
+
+# FUNCTION TO GET THE PATHS:
+def get_paths(run_date, taxi_type, run_id):
+    prev_month = run_date - relativedelta(months=1)
+    year = prev_month.year  
+    month = prev_month.month
 
     input_file = f'https://d37ci6vzurychx.cloudfront.net/trip-data/{taxi_type}_tripdata_{year:04d}-{month:02d}.parquet'
     output_file = f'output/{taxi_type}-{year:04d}-{month:02d}.parquet'
 
-    run_id = sys.argv[4]     # "895c76c3ee6746cb96328b189042f646"
+    return input_file, output_file
 
+
+
+@flow 
+def ride_duration_prediction(
+        taxi_type: str, 
+        run_id: str,
+        run_date: datetime=None):
+
+    mlflow.set_tracking_uri("sqlite:///mlflow.db")
+    mlflow.set_experiment("green-taxi-duration")
+
+    if run_date is None:
+        ctx = get_run_context()
+        run_date = ctx.flow_run.expected_start_time
+    
+    input_file, output_file = get_paths(run_date, taxi_type, run_id)
 
     apply_model(
         input_file=input_file, 
@@ -110,6 +140,20 @@ def run():
         output_file=output_file
     )
 
+
+
+# IMPLEMENTATION:
+def run():
+    taxi_type = sys.argv[1]  # "green"
+    year = int(sys.argv[2])  # 2021
+    month = int(sys.argv[3]) #  1
+    run_id = sys.argv[4]     # "895c76c3ee6746cb96328b189042f646"
+
+    ride_duration_prediction(
+        taxi_type=taxi_type, 
+        run_id=run_id, 
+        run_date=datetime(year=year, month=month, day=1)
+    )
 
 if __name__ == "__main__":
     run()
