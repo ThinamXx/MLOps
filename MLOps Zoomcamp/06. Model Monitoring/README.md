@@ -1,6 +1,6 @@
 # **Model Monitoring**
 
-**Machine Learning Model Monitoring**
+### **Machine Learning Model Monitoring**
 1. Service Health
 2. Model Performance
 3. Data Quality & Integrity
@@ -10,6 +10,6 @@
 7. Outliers
 8. Explainability
 
-**Monitoring Pipeline**
 
+### **Monitoring Pipeline**
 `ML Service + Usage Simulation + Logging + Online Monitoring + Batch Monitoring + Container`
