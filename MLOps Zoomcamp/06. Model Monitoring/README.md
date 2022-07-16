@@ -9,3 +9,7 @@
 6. Model Bias & Fairness
 7. Outliers
 8. Explainability
+
+**Monitoring Pipeline**
+
+`ML Service + Usage Simulation + Logging + Online Monitoring + Batch Monitoring + Container`

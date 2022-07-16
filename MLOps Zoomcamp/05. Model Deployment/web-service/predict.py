@@ -1,6 +1,5 @@
 # IMPORTING MODULES:
 import pickle
-from pyexpat import model
 from flask import Flask, request, jsonify
 
 # LOADING THE MODEL:
