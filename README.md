@@ -1,6 +1,5 @@
 # **MACHINE LEARNING OPERATIONS (MLOPS)**
 
-
 **Day1 of 66DaysOfMLOps**
 - **Experiment Tracking & MLflow**: Experiment tracking is the process of keeping track of all the relevant information from an ML experiment, which includes source code, environment, data, model, hyperparameters, metrics, etc. MLflow is an open source platform for the machine learning lifecycle. It's also a python package that can be installed with pip and it contains four main modules: Tracking, Models, Model Registry & Projects. I have been learning and experimenting MLOps from **MLOpsZoomcamp**. Today, I have learned MLOps, MLOps Maturity Level, Why we need MLOps, Experiment Tracking Introduction & MLflow and few more topics related to the same. I have presented the implementation of Tracking using MLflow here in the snapshot. I hope you will gain some insights and you will also spend some time learning the topics from the course mentioned below. Excited about the days ahead !!
 - 📚 [MLOps Zoomcamp](https://lnkd.in/dFqXZcdw)
@@ -21,3 +20,7 @@
 - 📚 [MLOps Zoomcamp](https://lnkd.in/dFqXZcdw)
 - 📒 [MLOps](https://lnkd.in/de8a3wXt)
 
+**Day5 of 66DaysOfMLOps**
+- I have been learning and experimenting MLOps from **MLOpsZoomcamp**. I have completed the topics related to Model Deployment. Here, I have learned and implemented Model Deployment using Web services such as Flask & Docker, Model Registry and MLflow, Batch Model Deployment & Scheduling Batch Jobs with Prefect. I have presented the implementation of Prefect flow and MLflow for model deployment here in the snapshot. I hope you will gain some insights and spend time learning the topics from the course mentioned below. I am excited about the days ahead.
+- 📚 [MLOps Zoomcamp](https://lnkd.in/dFqXZcdw)
+- 📒 [MLOps](https://lnkd.in/de8a3wXt)
