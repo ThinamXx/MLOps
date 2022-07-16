@@ -17,3 +17,7 @@ The repository contains information about experimental tracking, mlflow, model r
 
 [**4. MLOPS ORCHESTRATION**](https://github.com/ThinamXx/MLOps/tree/main/MLOps%20Zoomcamp/04.%20MLOps%20Orchestration)  
 The repository contains information and implementation about MLOps Workflow Orchestration with Prefect and MLFlow. 
+
+[**5. MODEL DEPLOYMENT**](https://github.com/ThinamXx/MLOps/tree/main/MLOps%20Zoomcamp/05.%20Model%20Deployment)  
+The repository contains information and implementation about Model Deployment using Web services such as Flask & Docker, Model Registry and MLflow, Batch Model Deployment & Scheduling Batch Jobs with Prefect.
+
