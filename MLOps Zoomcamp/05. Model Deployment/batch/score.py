@@ -155,5 +155,6 @@ def run():
         run_date=datetime(year=year, month=month, day=1)
     )
 
+
 if __name__ == "__main__":
     run()
