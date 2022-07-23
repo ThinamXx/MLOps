@@ -45,7 +45,7 @@ services:
     image: prom/prometheus 
     volumes:
       - ./evidently_service/config/prometheus.yml:/etc/prometheus/prometheus.yml
-      - prometheus_data/prometheus 
+      - prometheus_data:/prometheus 
     command:
       - '--config.file=/etc/prometheus/prometheus.yml'
       - '--storage.tsdb.path=/prometheus'
