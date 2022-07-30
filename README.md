@@ -24,3 +24,8 @@
 - I have been learning and experimenting MLOps from **MLOpsZoomcamp**. I have completed the topics related to Model Deployment. Here, I have learned and implemented Model Deployment using Web services such as Flask & Docker, Model Registry and MLflow, Batch Model Deployment & Scheduling Batch Jobs with Prefect. I have presented the implementation of Prefect flow and MLflow for model deployment here in the snapshot. I hope you will gain some insights and spend time learning the topics from the course mentioned below. I am excited about the days ahead.
 - 📚 [MLOps Zoomcamp](https://lnkd.in/dFqXZcdw)
 - 📒 [MLOps](https://lnkd.in/de8a3wXt)
+
+**Day6 of 66DaysOfMLOps**
+- I have been learning and experimenting MLOps from **MLOpsZoomcamp**. Here, I have been learning about Model Monitoring, Evidently Services, Prometheus & Grafana, Model Performance, Data Drift & Concept Drift, Model Bias, Outliers, Explainability, and many more topics related to the same from here. I have presented the implementation of Evidently and Monitoring Services for model monitoring here in the snapshot. I hope you will gain some insights and spend time learning the topics from the course mentioned below. I am excited about the days ahead.
+- 📚 [MLOps Zoomcamp](https://lnkd.in/dFqXZcdw)
+- 📒 [MLOps](https://lnkd.in/de8a3wXt)
