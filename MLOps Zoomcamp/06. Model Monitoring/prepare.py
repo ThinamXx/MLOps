@@ -1,5 +1,4 @@
 # IMPORTING MODULES:
-import ast
 from tqdm import tqdm
 import requests
 

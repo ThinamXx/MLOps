@@ -3,14 +3,11 @@ DEMO SERVICE FOR EVIDENTLY METRICS INTEGRATION WITH PROMETHEUS AND GRAFANA:
 """
 
 # IMPORTING MODULES:
-from ast import Str
 from asyncio.log import logger
 from curses import window
 import os
-import re
 from weakref import ref
 import yaml
-import hashlib
 import dataclasses
 import datetime
 import logging
