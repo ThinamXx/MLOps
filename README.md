@@ -29,3 +29,8 @@
 - I have been learning and experimenting MLOps from **MLOpsZoomcamp**. Here, I have been learning about Model Monitoring, Evidently Services, Prometheus & Grafana, Model Performance, Data Drift & Concept Drift, Model Bias, Outliers, Explainability, and many more topics related to the same from here. I have presented the implementation of Evidently and Monitoring Services for model monitoring here in the snapshot. I hope you will gain some insights and spend time learning the topics from the course mentioned below. I am excited about the days ahead.
 - 📚 [MLOps Zoomcamp](https://lnkd.in/dFqXZcdw)
 - 📒 [MLOps](https://lnkd.in/de8a3wXt)
+
+**Day7 of 66DaysOfMLOps**
+- **MLflow**: MLflow is an open source platform for the machine learning lifecycle, with a focus on reproducibility, training, and deployment. MLflow enables everyday practitioners to learn in one platform to manage the ML life cycle, from iteration on model deployment up to deployment in a reliable and scalable environment that is compatible with modern software system requirements. On my journey in Machine Learning Operations (MLOps), I have started reading the book **Machine Learning Engineering with MLflow**. Here, I have learned about the basics of MLflow, MLflow Modules such as MLflow Tracking, MLflow Projects, MLflow Models, End-to-End pipeline in MLflow, Dockerfile, and many more topics related to the same. I have presented the implementation of the MLflow Pipeline here in the snapshot. I hope you will gain some insights and spend time learning the topics from the course mentioned below. I am excited about the days ahead.
+- 📚 Machine Learning Engineering with MLflow
+- 📒 [MLOps](https://github.com/ThinamXx/MLOps/tree/main/ML%20Engineering%20MLFlow)
