@@ -1,0 +1,8 @@
+name: stockprediction
+
+docker_env:
+  image: stockprediction
+
+entry_points:
+  main:
+    command: "python train.py"
