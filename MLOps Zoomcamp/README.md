@@ -21,3 +21,5 @@ The repository contains information and implementation about MLOps Workflow Orch
 [**5. MODEL DEPLOYMENT**](https://github.com/ThinamXx/MLOps/tree/main/MLOps%20Zoomcamp/05.%20Model%20Deployment)  
 The repository contains information and implementation about Model Deployment using Web services such as Flask & Docker, Model Registry and MLflow, Batch Model Deployment & Scheduling Batch Jobs with Prefect.
 
+[**6. MODEL MONITORING**](https://github.com/ThinamXx/MLOps/tree/main/MLOps%20Zoomcamp/06.%20Model%20Monitoring)  
+The repository contains information and implementation about Model Deployment using Evidently, Grafana, and Prometheus. 
