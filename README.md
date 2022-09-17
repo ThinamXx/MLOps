@@ -43,10 +43,10 @@
 **Day9 of 66DaysOfMLOps**
 - **ETL: Extract, Transform, and Load**: Extract is extracting the data from all data sources. In the extraction phase, we need to validate the data and reject the data that doesn't meet our requirements. Transform is the meaty part of the process, where most of the data processing is done. We can apply operations such as transposing, deduplicating, sorting, aggregating, deriving new features, and more data validation. Load is deciding how and how often to load the transformed data into the target destination, which can be a file, a database, or a data warehouse. On my journey in Machine Learning Operations (MLOps), I am reading the book **Designing Machine Learning Systems** by Chip Huyen. Here, I have read about Data Models, Relational Models, Document & Graph Models, Structured & Unstructured Data, Data Storage Engines, and Processing, Transactional & Analytical Processing, ETL, Modes of Dataflow, and many more topics related to the same. I have shared the notes about Data Models, and ETL here in the snapshot. I hope you will gain some insights and spend time learning the topics from the book mentioned below. I am excited about the days ahead.
 - 📚 Designing Machine Learning Systems
-- 📒 [MLOps](https://github.com/ThinamXx/MLOps/tree/main/ML%20Engineering%20MLFlow)
+- 📒 [MLOps](https://github.com/ThinamXx/MLOps)
 
 **Day10 of 66DaysOfMLOps**
 - **Why Kubernetes?** Kubernetes is an open-source system for automating the deployment, scaling, and management of containerized applications. It allows our pipelines to be scalable, without sacrificing portability, enabling us to avoid becoming locked into a specific cloud provider. The goal of Kubeflow is to standardize the entire process of MDLC and make it substantially easier and more efficient. On my journey in Machine Learning Operations (MLOps), I am reading about Kubeflow. I have read about Kubeflow, Model Development Life Cycle, Containerization, Kubernetes, Kubeflow's Design and Core Components, Data & Feature Preparation, Hyperparameter, Model Validation, Inference, and Pipelines, and many more topics related to the same. I have shared the notes about Kubeflow and Kubernetes here in the snapshot. I hope you will gain some insights and spend time learning the topics from the book mentioned below. I am excited about the days ahead.
 - 📚 Kubeflow for Machine Learning from Lab to Production
-- 📒 [MLOps](https://github.com/ThinamXx/MLOps/tree/main/ML%20Engineering%20MLFlow)
+- 📒 [MLOps](https://github.com/ThinamXx/MLOps)
 
