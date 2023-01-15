@@ -50,3 +50,8 @@
 - 📚 Kubeflow for Machine Learning from Lab to Production
 - 📒 [MLOps](https://github.com/ThinamXx/MLOps)
 
+**Day11 of 66DaysOfMLOps*
+-  **Kubernetes:** Kubernetes is a container orchestration platform used to manage containerised applications which is used to automate container management process. Machine Learning models can be easily easily scaled and scheduled when containerised, and the management of workload performance can be automated. *TensorFlow Serving**: TensorFlow Serving is a flexible, high-performance serving system for machine learning models, designed for production environments. TensorFlow Serving makes it easy to deploy new algorithms and experiments, while keeping the same server architecture and APIs.  I am learning about Kubernetes, TensorFlow Serving, Docker, Flask, and many other topics related to the same from Machine Learning Zoomcamp. I have shared the implementation of TF-Serving here in the snapshot. I hope you will gain some insights and spend time learning the topics mentioned below. I am excited about the days ahead.
+- 📚 Machine Learning Zoomcamp
+- 📒 [MLOps](https://github.com/ThinamXx/MLOps)
+
