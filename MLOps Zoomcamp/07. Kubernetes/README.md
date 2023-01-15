@@ -1,5 +1,1 @@
 # **Kubernetes & Tensorflow Serving**
-
-```
-
-```
