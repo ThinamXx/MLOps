@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  clothing-model:
+    image: clothing-model:xception-v4-001
+  gateway:
+    image: clothing-gateway:001
+    environment:
+      - TF_SERVING_HOST=clothing-model:8500
+    ports:
+      - 9696:9696
